@@ -12,7 +12,7 @@ Unit-Lib: {
         summary: "The Unit Library is a system that provides high level abstractions on top of the SuperCollider language.",
         dependencies: [
                 { name: "wslib" },
-                { name: "VectorSpace" }
+                { name: "VectorSpace" },
                 { name: "PopUpTreeMenu" }
         ]
             
