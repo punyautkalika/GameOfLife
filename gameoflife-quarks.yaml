@@ -1,0 +1,21 @@
+{
+Unit-Lib: {
+        method: git,
+        uri: "https://github.com/GameOfLife/Unit-Lib.git",
+        version: {
+                0.1: {
+                        compat: [3.5, 3.6, 3.7],
+                        fetchInfo: "WFSCollider2.0" # this is a git tag
+                }
+        },
+        author: "Wouter Snoei, Miguel Negrao",
+        summary: "The Unit Library is a system that provides high level abstractions on top of the SuperCollider language.",
+        dependencies: [
+                { name: "wslib" },
+                { name: "VectorSpace" }
+                { name: "PopUpTreeMenu" }
+        ]
+            
+        }
+}
+
