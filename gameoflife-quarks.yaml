@@ -2,6 +2,7 @@
 Unit-Lib: {
         method: git,
         uri: "https://github.com/GameOfLife/Unit-Lib.git",
+        compat: [3.5, 3.6, 3.7],
         versions: {
                 0.1: {
                         compat: [3.5, 3.6, 3.7],
@@ -9,6 +10,7 @@ Unit-Lib: {
                 }
         },
         author: "Wouter Snoei, Miguel Negrao",
+        authorurl: "https://github.com/GameOfLife", 
         summary: "The Unit Library is a system that provides high level abstractions on top of the SuperCollider language.",
         dependencies: [
                 { name: "wslib" },
@@ -21,6 +23,7 @@ Unit-Lib: {
 WFSCollider-ClassLibray: {
         method: git,
         uri: "https://github.com/GameOfLife/WFSCollider-Class-Library.git",
+        compat: [3.5, 3.6, 3.7],
         versions: {
                 2.0: {
                         compat: [3.5, 3.6, 3.7],
@@ -28,6 +31,7 @@ WFSCollider-ClassLibray: {
                 }
         },
         author: "W. Snoei, R. Ganchrow and M. Negrao",
+        authorurl: "https://github.com/GameOfLife", 
         summary: "GameOfLife WFSCollider - Wave Field Synthesis spatialization for SuperCollider.",
         dependencies: [
                 { name: "Unit-Lib" },
