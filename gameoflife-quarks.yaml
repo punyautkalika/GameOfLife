@@ -2,7 +2,7 @@
 Unit-Lib: {
         method: git,
         uri: "https://github.com/GameOfLife/Unit-Lib.git",
-        version: {
+        versions: {
                 0.1: {
                         compat: [3.5, 3.6, 3.7],
                         fetchInfo: "v0.1" # this is a git tag
@@ -21,7 +21,7 @@ Unit-Lib: {
 WFSCollider-ClassLibray: {
         method: git,
         uri: "https://github.com/GameOfLife/WFSCollider-Class-Library.git",
-        version: {
+        versions: {
                 2.0: {
                         compat: [3.5, 3.6, 3.7],
                         fetchInfo: "WFSCollider2.0" # this is a git tag
