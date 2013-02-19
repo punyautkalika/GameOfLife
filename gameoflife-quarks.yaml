@@ -5,7 +5,7 @@ Unit-Lib: {
         version: {
                 0.1: {
                         compat: [3.5, 3.6, 3.7],
-                        fetchInfo: "WFSCollider2.0" # this is a git tag
+                        fetchInfo: "v0.1" # this is a git tag
                 }
         },
         author: "Wouter Snoei, Miguel Negrao",
@@ -16,6 +16,27 @@ Unit-Lib: {
                 { name: "PopUpTreeMenu" }
         ]
             
-        }
+},
+
+WFSCollider-ClassLibray: {
+        method: git,
+        uri: "https://github.com/GameOfLife/WFSCollider-Class-Library.git",
+        version: {
+                2.0: {
+                        compat: [3.5, 3.6, 3.7],
+                        fetchInfo: "WFSCollider2.0" # this is a git tag
+                }
+        },
+        author: "W. Snoei, R. Ganchrow and M. Negrao",
+        summary: "GameOfLife WFSCollider - Wave Field Synthesis spatialization for SuperCollider.",
+        dependencies: [
+                { name: "Unit-Lib" },
+                { name: "MathLib" },
+                { name: "NetLib" },
+                { name: "wslib" },
+                { name: "XML" }
+        ]
+            
+},
 }
 
