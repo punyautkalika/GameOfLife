@@ -9,7 +9,7 @@ Unit-Lib: {
                         fetchInfo: "v0.1" # this is a git tag
                 }
         },
-        author: "Wouter Snoei, Miguel Negrao",
+        author: "Wouter Snoei, Miguel ,
         authorurl: "https://github.com/GameOfLife", 
         summary: "The Unit Library is a system that provides high level abstractions on top of the SuperCollider language.",
         dependencies: [
