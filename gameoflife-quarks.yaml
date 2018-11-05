@@ -2,7 +2,7 @@
 Unit-Lib: {
         method: git,
         uri: "https://github.com/GameOfLife/Unit-Lib.git",
-        compat: [3.5, 3.6, 3.7],
+        compat: [3.5, 3.6],
         versions: {
                 0.1: {
                         compat: [3.5, 3.6, 3.7],
